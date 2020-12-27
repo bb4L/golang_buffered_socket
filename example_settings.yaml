@@ -1,0 +1,15 @@
+connections :
+    -
+      ServerType: "unix"
+      ServerAddress: "/tmp/buffered_socket.sock"
+      Url: "https://google.ch"
+      # ExtraHeader:
+      # ExtraHeaderValue:
+      MaxRetries: 5
+    # -
+    #   ServerType: "unix"
+    #   ServerAddress: "/tmp/buffered_socket4.sock"
+    #   Url: "https://google.ch"
+      # ExtraHeader:
+      # ExtraHeaderValue:
+      # MaxRetries: 5
